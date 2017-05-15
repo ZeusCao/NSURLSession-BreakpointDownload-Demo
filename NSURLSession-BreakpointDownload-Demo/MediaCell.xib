@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mediaCell" rowHeight="115" id="KGk-i7-Jjw" customClass="MediaCell">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7Je-Eg-YOy">
+                        <rect key="frame" x="20" y="52.5" width="180" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="H0e-Fg-z8j"/>
+                            <constraint firstAttribute="width" constant="180" id="UrL-KP-Bg8"/>
+                        </constraints>
+                        <color key="progressTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="trackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="778-O9-TMF">
+                        <rect key="frame" x="225" y="47" width="85" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Uf2-Ft-jRK"/>
+                            <constraint firstAttribute="width" constant="85" id="gfp-FL-knB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y06-tE-gKQ">
+                        <rect key="frame" x="347" y="47" width="50" height="20"/>
+                        <color key="backgroundColor" red="0.3373741793658025" green="0.69499290840200778" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="YvX-fd-GRf"/>
+                            <constraint firstAttribute="height" constant="20" id="nlz-2v-Q6v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <state key="normal" title="开始">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPT-0z-WbN">
+                        <rect key="frame" x="347" y="77" width="50" height="20"/>
+                        <color key="backgroundColor" red="1" green="0.39131830910171927" blue="0.71420447106909979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="ckr-he-Lr4"/>
+                            <constraint firstAttribute="height" constant="20" id="wIm-fM-HJe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <state key="normal" title="删除">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Y06-tE-gKQ" secondAttribute="trailing" constant="15" id="9mJ-hq-QjH"/>
+                    <constraint firstItem="778-O9-TMF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="225" id="DCs-Y7-H22"/>
+                    <constraint firstItem="Y06-tE-gKQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aZD-L1-i4I"/>
+                    <constraint firstItem="LPT-0z-WbN" firstAttribute="top" secondItem="Y06-tE-gKQ" secondAttribute="bottom" constant="10" id="eE3-FR-Q3v"/>
+                    <constraint firstItem="778-O9-TMF" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ebx-Oc-hOl"/>
+                    <constraint firstItem="LPT-0z-WbN" firstAttribute="trailing" secondItem="Y06-tE-gKQ" secondAttribute="trailing" id="mYo-CM-KKJ"/>
+                    <constraint firstItem="7Je-Eg-YOy" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xhd-Zz-usc"/>
+                    <constraint firstItem="7Je-Eg-YOy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="y4q-K2-LUM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="deleteBtn" destination="LPT-0z-WbN" id="TTA-XZ-RIm"/>
+                <outlet property="loadBtn" destination="Y06-tE-gKQ" id="90N-oJ-dJw"/>
+                <outlet property="progressLabel" destination="778-O9-TMF" id="6ZF-El-nwY"/>
+                <outlet property="progressView" destination="7Je-Eg-YOy" id="dH5-Md-JSG"/>
+            </connections>
+            <point key="canvasLocation" x="-92" y="-15"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00286161EC3116700DC1F2E /* MediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C00286141EC3116700DC1F2E /* MediaCell.m */; };
+		C00286171EC3116700DC1F2E /* MediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00286151EC3116700DC1F2E /* MediaCell.xib */; };
+		C03D71431EC1656200EB5CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D71421EC1656200EB5CA0 /* main.m */; };
+		C03D71461EC1656200EB5CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D71451EC1656200EB5CA0 /* AppDelegate.m */; };
+		C03D71491EC1656200EB5CA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D71481EC1656200EB5CA0 /* ViewController.m */; };
+		C03D714C1EC1656200EB5CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03D714A1EC1656200EB5CA0 /* Main.storyboard */; };
+		C03D714E1EC1656200EB5CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03D714D1EC1656200EB5CA0 /* Assets.xcassets */; };
+		C03D71511EC1656200EB5CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03D714F1EC1656200EB5CA0 /* LaunchScreen.storyboard */; };
+		C03D715C1EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D715B1EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoTests.m */; };
+		C03D71671EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D71661EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoUITests.m */; };
+		C03D71761EC1A75300EB5CA0 /* MediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D71751EC1A75300EB5CA0 /* MediaModel.m */; };
+		C03D71791EC1B05F00EB5CA0 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D71781EC1B05F00EB5CA0 /* NSString+Hash.m */; };
+		C03D717C1EC1B09C00EB5CA0 /* MediaDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C03D717B1EC1B09C00EB5CA0 /* MediaDownloadManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C03D71581EC1656200EB5CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C03D71361EC1656200EB5CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03D713D1EC1656200EB5CA0;
+			remoteInfo = "NSURLSession-BreakpointDownload-Demo";
+		};
+		C03D71631EC1656200EB5CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C03D71361EC1656200EB5CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03D713D1EC1656200EB5CA0;
+			remoteInfo = "NSURLSession-BreakpointDownload-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C00286131EC3116700DC1F2E /* MediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCell.h; sourceTree = "<group>"; };
+		C00286141EC3116700DC1F2E /* MediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCell.m; sourceTree = "<group>"; };
+		C00286151EC3116700DC1F2E /* MediaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaCell.xib; sourceTree = "<group>"; };
+		C03D713E1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSURLSession-BreakpointDownload-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03D71421EC1656200EB5CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C03D71441EC1656200EB5CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C03D71451EC1656200EB5CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C03D71471EC1656200EB5CA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C03D71481EC1656200EB5CA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C03D714B1EC1656200EB5CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C03D714D1EC1656200EB5CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03D71501EC1656200EB5CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C03D71521EC1656200EB5CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03D71571EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLSession-BreakpointDownload-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03D715B1EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession_BreakpointDownload_DemoTests.m; sourceTree = "<group>"; };
+		C03D715D1EC1656200EB5CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03D71621EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLSession-BreakpointDownload-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03D71661EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession_BreakpointDownload_DemoUITests.m; sourceTree = "<group>"; };
+		C03D71681EC1656200EB5CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03D71741EC1A75300EB5CA0 /* MediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaModel.h; sourceTree = "<group>"; };
+		C03D71751EC1A75300EB5CA0 /* MediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaModel.m; sourceTree = "<group>"; };
+		C03D71771EC1B05F00EB5CA0 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		C03D71781EC1B05F00EB5CA0 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		C03D717A1EC1B09C00EB5CA0 /* MediaDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDownloadManager.h; sourceTree = "<group>"; };
+		C03D717B1EC1B09C00EB5CA0 /* MediaDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDownloadManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03D713B1EC1656200EB5CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03D71541EC1656200EB5CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03D715F1EC1656200EB5CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03D71351EC1656200EB5CA0 = {
+			isa = PBXGroup;
+			children = (
+				C03D71401EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo */,
+				C03D715A1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests */,
+				C03D71651EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests */,
+				C03D713F1EC1656200EB5CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03D713F1EC1656200EB5CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03D713E1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo.app */,
+				C03D71571EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests.xctest */,
+				C03D71621EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03D71401EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C03D71441EC1656200EB5CA0 /* AppDelegate.h */,
+				C03D71451EC1656200EB5CA0 /* AppDelegate.m */,
+				C03D71471EC1656200EB5CA0 /* ViewController.h */,
+				C03D71481EC1656200EB5CA0 /* ViewController.m */,
+				C00286131EC3116700DC1F2E /* MediaCell.h */,
+				C00286141EC3116700DC1F2E /* MediaCell.m */,
+				C00286151EC3116700DC1F2E /* MediaCell.xib */,
+				C03D717A1EC1B09C00EB5CA0 /* MediaDownloadManager.h */,
+				C03D717B1EC1B09C00EB5CA0 /* MediaDownloadManager.m */,
+				C03D71741EC1A75300EB5CA0 /* MediaModel.h */,
+				C03D71751EC1A75300EB5CA0 /* MediaModel.m */,
+				C03D71771EC1B05F00EB5CA0 /* NSString+Hash.h */,
+				C03D71781EC1B05F00EB5CA0 /* NSString+Hash.m */,
+				C03D714A1EC1656200EB5CA0 /* Main.storyboard */,
+				C03D714D1EC1656200EB5CA0 /* Assets.xcassets */,
+				C03D714F1EC1656200EB5CA0 /* LaunchScreen.storyboard */,
+				C03D71521EC1656200EB5CA0 /* Info.plist */,
+				C03D71411EC1656200EB5CA0 /* Supporting Files */,
+			);
+			path = "NSURLSession-BreakpointDownload-Demo";
+			sourceTree = "<group>";
+		};
+		C03D71411EC1656200EB5CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03D71421EC1656200EB5CA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C03D715A1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C03D715B1EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoTests.m */,
+				C03D715D1EC1656200EB5CA0 /* Info.plist */,
+			);
+			path = "NSURLSession-BreakpointDownload-DemoTests";
+			sourceTree = "<group>";
+		};
+		C03D71651EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C03D71661EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoUITests.m */,
+				C03D71681EC1656200EB5CA0 /* Info.plist */,
+			);
+			path = "NSURLSession-BreakpointDownload-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03D713D1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03D716B1EC1656200EB5CA0 /* Build configuration list for PBXNativeTarget "NSURLSession-BreakpointDownload-Demo" */;
+			buildPhases = (
+				C03D713A1EC1656200EB5CA0 /* Sources */,
+				C03D713B1EC1656200EB5CA0 /* Frameworks */,
+				C03D713C1EC1656200EB5CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSURLSession-BreakpointDownload-Demo";
+			productName = "NSURLSession-BreakpointDownload-Demo";
+			productReference = C03D713E1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C03D71561EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03D716E1EC1656200EB5CA0 /* Build configuration list for PBXNativeTarget "NSURLSession-BreakpointDownload-DemoTests" */;
+			buildPhases = (
+				C03D71531EC1656200EB5CA0 /* Sources */,
+				C03D71541EC1656200EB5CA0 /* Frameworks */,
+				C03D71551EC1656200EB5CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03D71591EC1656200EB5CA0 /* PBXTargetDependency */,
+			);
+			name = "NSURLSession-BreakpointDownload-DemoTests";
+			productName = "NSURLSession-BreakpointDownload-DemoTests";
+			productReference = C03D71571EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C03D71611EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03D71711EC1656200EB5CA0 /* Build configuration list for PBXNativeTarget "NSURLSession-BreakpointDownload-DemoUITests" */;
+			buildPhases = (
+				C03D715E1EC1656200EB5CA0 /* Sources */,
+				C03D715F1EC1656200EB5CA0 /* Frameworks */,
+				C03D71601EC1656200EB5CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03D71641EC1656200EB5CA0 /* PBXTargetDependency */,
+			);
+			name = "NSURLSession-BreakpointDownload-DemoUITests";
+			productName = "NSURLSession-BreakpointDownload-DemoUITests";
+			productReference = C03D71621EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03D71361EC1656200EB5CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zeus;
+				TargetAttributes = {
+					C03D713D1EC1656200EB5CA0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C03D71561EC1656200EB5CA0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C03D713D1EC1656200EB5CA0;
+					};
+					C03D71611EC1656200EB5CA0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C03D713D1EC1656200EB5CA0;
+					};
+				};
+			};
+			buildConfigurationList = C03D71391EC1656200EB5CA0 /* Build configuration list for PBXProject "NSURLSession-BreakpointDownload-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03D71351EC1656200EB5CA0;
+			productRefGroup = C03D713F1EC1656200EB5CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03D713D1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo */,
+				C03D71561EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoTests */,
+				C03D71611EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03D713C1EC1656200EB5CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03D71511EC1656200EB5CA0 /* LaunchScreen.storyboard in Resources */,
+				C03D714E1EC1656200EB5CA0 /* Assets.xcassets in Resources */,
+				C00286171EC3116700DC1F2E /* MediaCell.xib in Resources */,
+				C03D714C1EC1656200EB5CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03D71551EC1656200EB5CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03D71601EC1656200EB5CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03D713A1EC1656200EB5CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03D71761EC1A75300EB5CA0 /* MediaModel.m in Sources */,
+				C03D71491EC1656200EB5CA0 /* ViewController.m in Sources */,
+				C03D717C1EC1B09C00EB5CA0 /* MediaDownloadManager.m in Sources */,
+				C03D71461EC1656200EB5CA0 /* AppDelegate.m in Sources */,
+				C03D71791EC1B05F00EB5CA0 /* NSString+Hash.m in Sources */,
+				C00286161EC3116700DC1F2E /* MediaCell.m in Sources */,
+				C03D71431EC1656200EB5CA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03D71531EC1656200EB5CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03D715C1EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03D715E1EC1656200EB5CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03D71671EC1656200EB5CA0 /* NSURLSession_BreakpointDownload_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C03D71591EC1656200EB5CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C03D713D1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo */;
+			targetProxy = C03D71581EC1656200EB5CA0 /* PBXContainerItemProxy */;
+		};
+		C03D71641EC1656200EB5CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C03D713D1EC1656200EB5CA0 /* NSURLSession-BreakpointDownload-Demo */;
+			targetProxy = C03D71631EC1656200EB5CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C03D714A1EC1656200EB5CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03D714B1EC1656200EB5CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C03D714F1EC1656200EB5CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03D71501EC1656200EB5CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03D71691EC1656200EB5CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C03D716A1EC1656200EB5CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C03D716C1EC1656200EB5CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSURLSession-BreakpointDownload-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.NSURLSession-BreakpointDownload-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C03D716D1EC1656200EB5CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSURLSession-BreakpointDownload-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.NSURLSession-BreakpointDownload-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C03D716F1EC1656200EB5CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSURLSession-BreakpointDownload-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.NSURLSession-BreakpointDownload-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLSession-BreakpointDownload-Demo.app/NSURLSession-BreakpointDownload-Demo";
+			};
+			name = Debug;
+		};
+		C03D71701EC1656200EB5CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSURLSession-BreakpointDownload-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.NSURLSession-BreakpointDownload-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLSession-BreakpointDownload-Demo.app/NSURLSession-BreakpointDownload-Demo";
+			};
+			name = Release;
+		};
+		C03D71721EC1656200EB5CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSURLSession-BreakpointDownload-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.NSURLSession-BreakpointDownload-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSURLSession-BreakpointDownload-Demo";
+			};
+			name = Debug;
+		};
+		C03D71731EC1656200EB5CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSURLSession-BreakpointDownload-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.NSURLSession-BreakpointDownload-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSURLSession-BreakpointDownload-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03D71391EC1656200EB5CA0 /* Build configuration list for PBXProject "NSURLSession-BreakpointDownload-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03D71691EC1656200EB5CA0 /* Debug */,
+				C03D716A1EC1656200EB5CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03D716B1EC1656200EB5CA0 /* Build configuration list for PBXNativeTarget "NSURLSession-BreakpointDownload-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03D716C1EC1656200EB5CA0 /* Debug */,
+				C03D716D1EC1656200EB5CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03D716E1EC1656200EB5CA0 /* Build configuration list for PBXNativeTarget "NSURLSession-BreakpointDownload-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03D716F1EC1656200EB5CA0 /* Debug */,
+				C03D71701EC1656200EB5CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03D71711EC1656200EB5CA0 /* Build configuration list for PBXNativeTarget "NSURLSession-BreakpointDownload-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03D71721EC1656200EB5CA0 /* Debug */,
+				C03D71731EC1656200EB5CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03D71361EC1656200EB5CA0 /* Project object */;
+}
