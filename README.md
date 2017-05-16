@@ -1,1 +1,1 @@
-# NSURLSession-BreakpointDownload-Demo
+NSURLSession封装的下载类实现多任务的断点续传
